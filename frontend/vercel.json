@@ -1,5 +1,5 @@
 {
   "rewrites": [
-    { "source": "/api/(.*)", "destination": "https://redprobe-llm-eval.onrender.com" }
+    { "source": "/api/(.*)", "destination": "https://redprobe-llm-eval.onrender.com/api/$1" }
   ]
 }
